@@ -1,0 +1,87 @@
+table {
+    width: 100%;
+    border: 2px solid rgb(77, 75, 75);
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.customer-table-container {
+    margin-top: 20px; /* Add some space between heading and table */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border: 2px solid #ddd; /* Thick border */
+  }
+  
+  .search-filters {
+    margin-bottom: 20px; /* Add space between search bar and table */
+  }
+  
+  .search-filters input,
+  .search-filters select {
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid #7d7676;
+    border-radius: 20px;
+  }
+  
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #7d7676; /* Thick border */
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    border: 2px solid #ddd; /* Thick border */
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .customer-table th {
+    background-color: #65696d; /* Change background color of table head */
+    color: #fff; /* Text color */
+  }
+  
+  .customer-table tr:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .pagination button {
+    background-color: #3c3e40;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 50px;
+    width:50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
